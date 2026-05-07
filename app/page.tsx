@@ -172,6 +172,71 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section
+        id="contact"
+        className="border-t border-white/10 bg-[linear-gradient(180deg,_rgba(8,17,31,1),_rgba(11,23,48,0.98))]"
+      >
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-12">
+          <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+            <div>
+              <p className="text-sm uppercase tracking-[0.35em] text-glow">
+                Contact
+              </p>
+              <h2 className="mt-4 text-3xl font-semibold tracking-[0.06em] text-white sm:text-4xl">
+                Ready to tighten the loop?
+              </h2>
+              <p className="mt-5 max-w-xl text-lg leading-8 text-slate-300">
+                If you are building industrial systems that need better
+                visibility, stronger process feedback, or more reliable
+                operational software, let&apos;s talk.
+              </p>
+            </div>
+
+            <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 shadow-panel">
+              <div className="grid gap-6 sm:grid-cols-2">
+                <div>
+                  <p className="text-sm uppercase tracking-[0.3em] text-mist/60">
+                    Email
+                  </p>
+                  <a
+                    href="mailto:sam@recurrentsystems.com"
+                    className="mt-3 inline-block text-xl font-semibold text-white transition hover:text-glow"
+                  >
+                    sam@recurrentsystems.com
+                  </a>
+                </div>
+
+                <div>
+                  <p className="text-sm uppercase tracking-[0.3em] text-mist/60">
+                    Focus
+                  </p>
+                  <p className="mt-3 text-lg leading-8 text-slate-200">
+                    Industrial software, operational visibility, and closed-loop
+                    process improvement.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-8 border-t border-white/10 pt-8">
+                <a
+                  href="mailto:sam@recurrentsystems.com?subject=Recurrent%20Systems%20Inquiry"
+                  className="inline-flex items-center rounded-full bg-signal px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-[#2663b6]"
+                >
+                  Email Sam
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className="border-t border-white/10 bg-ink">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm text-slate-400 sm:px-10 lg:flex-row lg:items-center lg:justify-between lg:px-12">
+          <p>© 2026 Recurrent Systems. All rights reserved.</p>
+          <p>Industrial software focused on closing the feedback loop.</p>
+        </div>
+      </footer>
     </main>
   );
 }
