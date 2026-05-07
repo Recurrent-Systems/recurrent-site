@@ -4,24 +4,24 @@ const principles = [
   {
     title: "Observe in real time",
     description:
-      "Capture the operating state of equipment, workflows, and production systems without waiting on stale reporting cycles."
+      "Capture the live state of equipment, workflows, and production systems without waiting on stale reporting cycles."
   },
   {
     title: "Decide with context",
     description:
-      "Turn raw signals into usable operational insight so teams can respond with confidence, not guesswork."
+      "Turn raw signals into operational context so teams can respond with confidence instead of guesswork."
   },
   {
     title: "Act and learn",
     description:
-      "Push improvements back into the process, measure the result, and keep the loop moving until output stabilizes."
+      "Push improvements back into the process, measure the result, and keep the loop moving until performance holds."
   }
 ];
 
 const capabilities = [
-  "Industrial dashboards and operator visibility",
-  "Data pipelines from plant floor to decision layer",
-  "Workflow automation for recurring process control",
+  "Operational dashboards and plant-floor visibility",
+  "Data pipelines from equipment to decision layer",
+  "Workflow automation for repeatable process control",
   "Closed-loop reporting that turns feedback into action"
 ];
 
@@ -56,11 +56,11 @@ export default function Home() {
                 Closing the feedback loop
               </div>
               <h1 className="mt-6 max-w-4xl text-5xl font-semibold tracking-[0.08em] text-white sm:text-6xl lg:text-7xl">
-                Software for industrial systems that need to respond, refine, and repeat.
+                Industrial software built to sense, respond, and improve.
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-                Recurrent Systems builds industrial software that transforms
-                operational feedback into continuous control. We help teams
+                Recurrent Systems builds software for industrial teams that need
+                clearer visibility, tighter control, and faster feedback. We
                 connect signals, decisions, and action so every cycle improves
                 the next one.
               </p>
@@ -131,7 +131,7 @@ export default function Home() {
                 What we build
               </p>
               <h2 className="mt-4 text-3xl font-semibold tracking-[0.06em] text-white sm:text-4xl">
-                Purpose-built systems for industrial teams that need tighter feedback.
+                Purpose-built systems for industrial teams that need tighter control.
               </h2>
             </div>
 
@@ -157,14 +157,14 @@ export default function Home() {
                   Operating idea
                 </p>
                 <p className="mt-4 max-w-3xl text-xl leading-9 text-slate-200">
-                  The best industrial software does more than monitor. It
-                  senses, informs, and improves the system it supports.
-                  Recurrent Systems is built around that loop.
+                  The best industrial software does more than report status. It
+                  helps teams see what is happening, decide what matters, and
+                  feed improvements back into the system.
                 </p>
-              </div>
               </div>
             </div>
           </div>
+        </div>
       </section>
 
       <section
@@ -178,12 +178,11 @@ export default function Home() {
                 Contact
               </p>
               <h2 className="mt-4 text-3xl font-semibold tracking-[0.06em] text-white sm:text-4xl">
-                Ready to tighten the loop?
+                Ready to close the loop?
               </h2>
               <p className="mt-5 max-w-xl text-lg leading-8 text-slate-300">
-                If you are building industrial systems that need better
-                visibility, stronger process feedback, or more reliable
-                operational software, let&apos;s talk.
+                If you need better visibility, stronger process feedback, or
+                more dependable operational software, let&apos;s talk.
               </p>
             </div>
 
@@ -227,7 +226,7 @@ export default function Home() {
 
       <footer className="border-t border-white/10 bg-ink">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm text-slate-400 sm:px-10 lg:flex-row lg:items-center lg:justify-between lg:px-12">
-          <p>© 2026 Recurrent Systems. All rights reserved.</p>
+          <p>&copy; 2026 Recurrent Systems. All rights reserved.</p>
           <p>Industrial software focused on closing the feedback loop.</p>
         </div>
       </footer>
