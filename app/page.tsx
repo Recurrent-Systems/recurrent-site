@@ -162,15 +162,9 @@ export default function Home() {
                   Recurrent Systems is built around that loop.
                 </p>
               </div>
-              <a
-                href="mailto:sam@recurrentsystems.com"
-                className="inline-flex items-center rounded-full border border-glow/40 px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-white/5"
-              >
-                Contact Recurrent
-              </a>
+              </div>
             </div>
           </div>
-        </div>
       </section>
 
       <section
@@ -223,7 +217,7 @@ export default function Home() {
                   href="mailto:sam@recurrentsystems.com?subject=Recurrent%20Systems%20Inquiry"
                   className="inline-flex items-center rounded-full bg-signal px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-[#2663b6]"
                 >
-                  Email Sam
+                  Email Us
                 </a>
               </div>
             </div>
