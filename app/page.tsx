@@ -1,28 +1,77 @@
 import Image from "next/image";
 
-const principles = [
+const loopSteps = [
   {
-    title: "Observe in real time",
+    title: "Connect the evidence",
     description:
-      "Capture the live state of equipment, workflows, and production systems without waiting on stale reporting cycles."
+      "Unify geometric, inspection, production, and quality data so teams can see how the work is actually performing."
   },
   {
-    title: "Decide with context",
+    title: "Reveal the signal",
     description:
-      "Turn raw signals into operational context so teams can respond with confidence instead of guesswork."
+      "Connect quality outcomes back to design intent, production variation, process behavior, and revision history."
   },
   {
-    title: "Act and learn",
+    title: "Retain the knowledge",
     description:
-      "Push improvements back into the process, measure the result, and keep the loop moving until performance holds."
+      "Turn lessons learned into reusable manufacturing intelligence across programs, facilities, and production cycles."
   }
 ];
 
-const capabilities = [
-  "Operational dashboards and plant-floor visibility",
-  "Data pipelines from equipment to decision layer",
-  "Workflow automation for repeatable process control",
-  "Closed-loop reporting that turns feedback into action"
+const forgeProblems = [
+  "Manufacturing data fragmented across inspection systems, spreadsheets, and siloed processes",
+  "Critical geometric insights trapped inside individual programs and workflows",
+  "Traceability gaps that slow root cause analysis and corrective action",
+  "Engineering and manufacturing teams repeatedly solving the same problems"
+];
+
+const forgeCapabilities = [
+  {
+    title: "Embedded AI",
+    description:
+      "Use natural language querying, multi-modal support automation, report generation, and document intelligence to make complex data easier to use."
+  },
+  {
+    title: "3D Visualization",
+    description:
+      "View and query data with integrated CAD, compare datasets, and connect CAD directly to measurement plans in a single view."
+  },
+  {
+    title: "Model Training Datasets",
+    description:
+      "Generate KPI datasets optimized for AI and data science queries while capturing trends, shifts, and process behavior over time."
+  },
+  {
+    title: "Tolerance Management",
+    description:
+      "Create, update, and manage measurement plans, preserve revision history, and visualize tolerances directly on CAD."
+  },
+  {
+    title: "Event-Driven Architecture",
+    description:
+      "Define rules for traceability, reports, alerts, triggers, and automated scheduling across production workflows."
+  },
+  {
+    title: "Reusable Knowledge",
+    description:
+      "Consolidate isolated manufacturing information into organizational intelligence that improves future programs."
+  }
+];
+
+const forgeData = [
+  "Design intent",
+  "Production variation",
+  "Quality outcomes",
+  "Geometric data",
+  "Measurement plans",
+  "Process behavior"
+];
+
+const advantages = [
+  "Reduce engineering hours spent finding data, building studies, and generating reports",
+  "Shorten rework cycles and reduce fit issues, scrap, and tedious manual tasks",
+  "Use objective quality evidence with suppliers, customers, and internal teams",
+  "Build a compounding empirical database that improves future programs"
 ];
 
 export default function Home() {
@@ -37,11 +86,11 @@ export default function Home() {
           <header className="flex items-center justify-between border-b border-white/10 pb-5">
             <div className="flex items-center gap-4">
               <Image
-                src="/logo.webp"
+                src="/logo-contrast.webp"
                 alt="Recurrent Systems logo"
-                width={220}
-                height={62}
-                className="h-auto w-44 rounded-sm bg-white/95 p-2 shadow-panel sm:w-56"
+                width={330}
+                height={100}
+                className="h-auto w-48 sm:w-64"
                 priority
               />
             </div>
@@ -50,19 +99,18 @@ export default function Home() {
             </div>
           </header>
 
-          <div className="grid flex-1 items-center gap-16 py-14 lg:grid-cols-[1.2fr_0.8fr] lg:py-20">
-            <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[11px] uppercase tracking-[0.35em] text-mist/80">
+          <div className="grid flex-1 items-center gap-16 py-14 lg:grid-cols-[1.15fr_0.85fr] lg:py-20">
+            <div className="max-w-4xl">
+              <p className="text-sm uppercase tracking-[0.35em] text-glow">
                 Closing the feedback loop
-              </div>
-              <h1 className="mt-6 max-w-4xl text-5xl font-semibold tracking-[0.08em] text-white sm:text-6xl lg:text-7xl">
-                Industrial software built to sense, respond, and improve.
+              </p>
+              <h1 className="mt-6 max-w-4xl text-5xl font-semibold tracking-normal text-white sm:text-6xl lg:text-7xl">
+                Recurrent Systems builds industrial software that turns manufacturing data into intelligence.
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-                Recurrent Systems builds software for industrial teams that need
-                clearer visibility, tighter control, and faster feedback. We
-                connect signals, decisions, and action so every cycle improves
-                the next one.
+                Our flagship platform, Forge, interconnects design intent,
+                production variation, and quality outcomes into a unified
+                feedback loop for industrial manufacturers.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">
@@ -73,10 +121,10 @@ export default function Home() {
                   Start a conversation
                 </a>
                 <a
-                  href="#capabilities"
+                  href="#forge"
                   className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-mist transition hover:border-mist/50 hover:bg-white/5"
                 >
-                  Explore capabilities
+                  Explore Forge
                 </a>
               </div>
             </div>
@@ -86,13 +134,13 @@ export default function Home() {
                 <div className="rounded-[1.5rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-6">
                   <div className="flex items-center justify-between border-b border-white/10 pb-4">
                     <span className="text-xs uppercase tracking-[0.35em] text-mist/70">
-                      Loop Sequence
+                      Company Loop
                     </span>
                     <span className="text-xs text-mist/60">01 / 03</span>
                   </div>
 
                   <div className="mt-6 space-y-4">
-                    {principles.map((item, index) => (
+                    {loopSteps.map((item, index) => (
                       <div
                         key={item.title}
                         className="rounded-2xl border border-white/10 bg-ink/40 p-5"
@@ -121,48 +169,133 @@ export default function Home() {
       </section>
 
       <section
-        id="capabilities"
+        id="forge"
         className="border-t border-white/10 bg-[linear-gradient(180deg,_rgba(11,23,48,0.96),_rgba(8,17,31,1))]"
       >
         <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-12">
-          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
-            <div>
+          <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+            <div className="max-w-4xl">
               <p className="text-sm uppercase tracking-[0.35em] text-glow">
-                What we build
+                Introducing Forge
               </p>
-              <h2 className="mt-4 text-3xl font-semibold tracking-[0.06em] text-white sm:text-4xl">
-                Purpose-built systems for industrial teams that need tighter control.
+              <h2 className="mt-5 text-5xl font-semibold tracking-normal text-white sm:text-6xl">
+                Industrial manufacturing intelligence for the full production loop.
               </h2>
+              <div className="mt-7 space-y-5 text-lg leading-8 text-slate-300">
+                <p>
+                  Forge is Recurrent Systems&apos; industrial manufacturing
+                  intelligence platform. It connects design intent, production
+                  variation, and quality outcomes so manufacturers can identify
+                  process-driven defects earlier, isolate root causes faster,
+                  and improve manufacturability at scale.
+                </p>
+                <p>
+                  The platform unifies geometric and quality data across design,
+                  manufacturing, and quality teams by streamlining disconnected
+                  systems and workflows into one reusable intelligence layer.
+                </p>
+              </div>
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {capabilities.map((item) => (
+            <div className="grid gap-4">
+              {forgeProblems.map((problem) => (
                 <div
-                  key={item}
-                  className="rounded-[1.5rem] border border-white/10 bg-white/[0.03] p-6"
+                  key={problem}
+                  className="rounded-[1.5rem] border border-white/10 bg-white/[0.03] p-5"
                 >
                   <div className="text-sm uppercase tracking-[0.3em] text-mist/60">
-                    Capability
+                    Friction
                   </div>
-                  <p className="mt-4 text-lg leading-8 text-slate-200">{item}</p>
+                  <p className="mt-3 text-base leading-7 text-slate-200">
+                    {problem}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
 
           <div className="mt-14 rounded-[2rem] border border-sky-100/10 bg-[linear-gradient(135deg,rgba(137,174,232,0.12),rgba(17,36,63,0.18))] p-8 sm:p-10">
-            <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
-              <div>
-                <p className="text-sm uppercase tracking-[0.35em] text-glow">
-                  Operating idea
-                </p>
-                <p className="mt-4 max-w-3xl text-xl leading-9 text-slate-200">
-                  The best industrial software does more than report status. It
-                  helps teams see what is happening, decide what matters, and
-                  feed improvements back into the system.
+            <p className="text-sm uppercase tracking-[0.35em] text-glow">
+              Data as a Strategic Asset
+            </p>
+            <p className="mt-4 max-w-4xl text-xl leading-9 text-slate-200">
+              Forge helps manufacturing organizations unlock knowledge that is
+              often difficult to retain, analyze, and apply across programs,
+              facilities, and production cycles. Data becomes a source of truth
+              for current decisions and a compounding advantage for future work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 bg-ink">
+        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 sm:px-10 lg:grid-cols-[0.85fr_1.15fr] lg:px-12">
+          <div>
+            <p className="text-sm uppercase tracking-[0.35em] text-glow">
+              Core Capabilities
+            </p>
+            <h2 className="mt-4 text-3xl font-semibold tracking-normal text-white sm:text-5xl">
+              Built for AI-assisted manufacturing intelligence.
+            </h2>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-2">
+            {forgeCapabilities.map((capability) => (
+              <div
+                key={capability.title}
+                className="rounded-[1.5rem] border border-white/10 bg-white/[0.03] p-6"
+              >
+                <h3 className="text-xl font-semibold text-white">
+                  {capability.title}
+                </h3>
+                <p className="mt-4 text-base leading-7 text-slate-300">
+                  {capability.description}
                 </p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 bg-[linear-gradient(180deg,_rgba(8,17,31,1),_rgba(11,23,48,0.98))]">
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-12">
+          <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
+            <div>
+              <p className="text-sm uppercase tracking-[0.35em] text-glow">
+                Forge Data
+              </p>
+              <h2 className="mt-4 text-3xl font-semibold tracking-normal text-white sm:text-5xl">
+                The reusable asset behind better production decisions.
+              </h2>
+              <p className="mt-5 text-lg leading-8 text-slate-300">
+                Forge consolidates isolated manufacturing information into a
+                centralized platform. Every run can strengthen traceability,
+                improve model training data, reveal trends and shifts, and
+                preserve knowledge that would otherwise remain siloed.
+              </p>
             </div>
+
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {forgeData.map((asset) => (
+                <div
+                  key={asset}
+                  className="rounded-xl border border-white/10 bg-white/[0.04] px-4 py-5 text-sm font-semibold uppercase tracking-[0.16em] text-mist"
+                >
+                  {asset}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {advantages.map((advantage) => (
+              <p
+                key={advantage}
+                className="rounded-[1.5rem] border border-white/10 bg-white/[0.03] p-6 text-base leading-7 text-slate-200"
+              >
+                {advantage}
+              </p>
+            ))}
           </div>
         </div>
       </section>
@@ -177,48 +310,28 @@ export default function Home() {
               <p className="text-sm uppercase tracking-[0.35em] text-glow">
                 Contact
               </p>
-              <h2 className="mt-4 text-3xl font-semibold tracking-[0.06em] text-white sm:text-4xl">
+              <h2 className="mt-4 text-3xl font-semibold tracking-normal text-white sm:text-5xl">
                 Ready to close the loop?
               </h2>
               <p className="mt-5 max-w-xl text-lg leading-8 text-slate-300">
-                If you need better visibility, stronger process feedback, or
-                more dependable operational software, let&apos;s talk.
+                If your team is repeatedly solving the same inspection, quality,
+                or manufacturability problems, let&apos;s talk about what Forge
+                can connect.
               </p>
             </div>
 
             <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 shadow-panel">
-              <div className="grid gap-6 sm:grid-cols-2">
-                <div>
-                  <p className="text-sm uppercase tracking-[0.3em] text-mist/60">
-                    Email
-                  </p>
-                  <a
-                    href="mailto:sam@recurrentsystems.com"
-                    className="mt-3 inline-block text-xl font-semibold text-white transition hover:text-glow"
-                  >
-                    sam@recurrentsystems.com
-                  </a>
-                </div>
+              <p className="max-w-xl text-lg leading-8 text-slate-200">
+                Tell us where your quality data is getting stuck and what your
+                teams need to learn from it. We&apos;ll start there.
+              </p>
 
-                <div>
-                  <p className="text-sm uppercase tracking-[0.3em] text-mist/60">
-                    Focus
-                  </p>
-                  <p className="mt-3 text-lg leading-8 text-slate-200">
-                    Industrial software, operational visibility, and closed-loop
-                    process improvement.
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-8 border-t border-white/10 pt-8">
-                <a
-                  href="mailto:sam@recurrentsystems.com?subject=Recurrent%20Systems%20Inquiry"
-                  className="inline-flex items-center rounded-full bg-signal px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-[#2663b6]"
-                >
-                  Email Us
-                </a>
-              </div>
+              <a
+                href="mailto:sam@recurrentsystems.com?subject=Recurrent%20Systems%20Inquiry"
+                className="mt-8 inline-flex items-center rounded-full bg-signal px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-[#2663b6]"
+              >
+                Email Us
+              </a>
             </div>
           </div>
         </div>
