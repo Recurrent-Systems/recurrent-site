@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Recurrent Systems",
+  title: "Recurrent Systems — Turn production data into a leverageable asset",
   description:
-    "Industrial manufacturing intelligence software that turns geometric and quality data into a strategic asset.",
+    "Industrial software for assembly and PCB manufacturers. Recurrent unifies the data your lines already produce into one trustworthy record — and puts it to work on the floor and in the boardroom.",
   icons: {
     icon: [
       { url: "/favicon-64.webp", sizes: "64x64", type: "image/webp" },
