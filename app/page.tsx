@@ -257,8 +257,7 @@ export default function Home() {
 
             <div className="rounded-[1.75rem] border border-white/10 bg-white/[0.03] p-8 shadow-panel">
               <p className="max-w-xl text-lg leading-8 text-slate-200">
-                Tell us where your data is getting stuck and what your teams need
-                to learn from it. We&apos;ll start there.
+                Talk to us about where we can help.
               </p>
 
               <a
