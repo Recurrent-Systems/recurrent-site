@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Recurrent Systems",
   description:
-    "Industrial manufacturing intelligence software that turns geometric and quality data into a strategic asset.",
+    "Industrial software that connects design, engineering, and production — linking inspection and quality data to the decisions around it so teams catch defects earlier and stop solving the same problems twice.",
   icons: {
     icon: [
       { url: "/favicon-64.webp", sizes: "64x64", type: "image/webp" },
