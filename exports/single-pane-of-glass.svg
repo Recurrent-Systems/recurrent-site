@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" fill="none">
+  <defs>
+    <marker id="visArrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#89aee8"/>
+    </marker>
+  </defs>
+
+  <!-- card background -->
+  <rect x="0" y="0" width="900" height="262" rx="18" fill="#0c1830" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <!-- column headers -->
+    <text x="117" y="34" text-anchor="middle" fill="#89aee8" fill-opacity="0.55" font-size="9.5" letter-spacing="1.5" font-family="monospace">EVERY TEAM</text>
+    <text x="450" y="34" text-anchor="middle" fill="#89aee8" fill-opacity="0.55" font-size="9.5" letter-spacing="1.5" font-family="monospace">A SINGLE PANE OF GLASS</text>
+    <text x="745" y="34" text-anchor="middle" fill="#89aee8" fill-opacity="0.55" font-size="9.5" letter-spacing="1.5" font-family="monospace">THE RESULT</text>
+
+    <!-- team: Engineering -->
+    <line x1="192" y1="95" x2="308" y2="145" stroke="#89aee8" stroke-opacity="0.28" stroke-width="1.25"/>
+    <rect x="42" y="75" width="150" height="40" rx="9" fill="#11243f" fill-opacity="0.45" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="54" y="86" width="18" height="18" rx="5" fill="#89aee8" fill-opacity="0.16" stroke="#89aee8" stroke-opacity="0.35"/>
+    <text x="82" y="100" fill="#ffffff" fill-opacity="0.9" font-size="12" font-weight="500">Engineering</text>
+
+    <!-- team: Quality -->
+    <line x1="192" y1="145" x2="308" y2="145" stroke="#89aee8" stroke-opacity="0.28" stroke-width="1.25"/>
+    <rect x="42" y="125" width="150" height="40" rx="9" fill="#11243f" fill-opacity="0.45" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="54" y="136" width="18" height="18" rx="5" fill="#89aee8" fill-opacity="0.16" stroke="#89aee8" stroke-opacity="0.35"/>
+    <text x="82" y="150" fill="#ffffff" fill-opacity="0.9" font-size="12" font-weight="500">Quality</text>
+
+    <!-- team: Manufacturing -->
+    <line x1="192" y1="195" x2="308" y2="145" stroke="#89aee8" stroke-opacity="0.28" stroke-width="1.25"/>
+    <rect x="42" y="175" width="150" height="40" rx="9" fill="#11243f" fill-opacity="0.45" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="54" y="186" width="18" height="18" rx="5" fill="#89aee8" fill-opacity="0.16" stroke="#89aee8" stroke-opacity="0.35"/>
+    <text x="82" y="200" fill="#ffffff" fill-opacity="0.9" font-size="12" font-weight="500">Manufacturing</text>
+
+    <!-- the single pane -->
+    <rect x="308" y="80" width="284" height="130" rx="12" fill="#89aee8" fill-opacity="0.05" stroke="#89aee8" stroke-opacity="0.55"/>
+    <circle cx="326" cy="98" r="3" fill="#89aee8" fill-opacity="0.45"/>
+    <circle cx="338" cy="98" r="3" fill="#89aee8" fill-opacity="0.3"/>
+    <circle cx="350" cy="98" r="3" fill="#89aee8" fill-opacity="0.3"/>
+    <line x1="308" y1="114" x2="592" y2="114" stroke="#89aee8" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="326" y="134" fill="#d9e7fb" fill-opacity="0.55" font-size="10">Process capability &amp; conformance</text>
+    <line x1="326" y1="152" x2="574" y2="152" stroke="#89aee8" stroke-opacity="0.08" stroke-width="1"/>
+    <line x1="326" y1="174" x2="574" y2="174" stroke="#89aee8" stroke-opacity="0.08" stroke-width="1"/>
+    <polyline points="326,190 366,180 406,184 446,168 486,158 526,150 566,142" fill="none" stroke="#89aee8" stroke-opacity="0.85" stroke-width="1.75"/>
+    <circle cx="446" cy="168" r="2.5" fill="#89aee8"/>
+    <circle cx="526" cy="150" r="2.5" fill="#89aee8"/>
+    <circle cx="566" cy="142" r="2.5" fill="#89aee8"/>
+
+    <!-- results -->
+    <line x1="592" y1="145" x2="632" y2="145" stroke="#89aee8" stroke-width="2.5" marker-end="url(#visArrow)"/>
+
+    <circle cx="648" cy="105" r="9" fill="#89aee8" fill-opacity="0.12" stroke="#89aee8" stroke-opacity="0.4"/>
+    <path d="M644,105 l3,3 l6,-7" fill="none" stroke="#89aee8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="666" y="109" fill="#ffffff" fill-opacity="0.92" font-size="12.5">Fewer status meetings</text>
+
+    <circle cx="648" cy="145" r="9" fill="#89aee8" fill-opacity="0.12" stroke="#89aee8" stroke-opacity="0.4"/>
+    <path d="M644,145 l3,3 l6,-7" fill="none" stroke="#89aee8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="666" y="149" fill="#ffffff" fill-opacity="0.92" font-size="12.5">Faster, aligned decisions</text>
+
+    <circle cx="648" cy="185" r="9" fill="#89aee8" fill-opacity="0.12" stroke="#89aee8" stroke-opacity="0.4"/>
+    <path d="M644,185 l3,3 l6,-7" fill="none" stroke="#89aee8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="666" y="189" fill="#ffffff" fill-opacity="0.92" font-size="12.5">Higher efficiency</text>
+
+    <text x="450" y="240" text-anchor="middle" fill="#d9e7fb" fill-opacity="0.4" font-size="12">Every team, working from the same picture</text>
+  </g>
+</svg>

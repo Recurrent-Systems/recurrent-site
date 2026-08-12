@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" fill="none">
+  <defs>
+    <marker id="vcArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#2663b6"/>
+    </marker>
+  </defs>
+
+  <!-- card background (white) -->
+  <rect x="0.5" y="0.5" width="779" height="299" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <!-- column headers -->
+    <text x="145" y="42" text-anchor="middle" fill="#1d4f91" fill-opacity="0.85" font-size="9.5" letter-spacing="1.5" font-family="monospace">WHAT FORGE DOES</text>
+    <text x="390" y="42" text-anchor="middle" fill="#1d4f91" fill-opacity="0.85" font-size="9.5" letter-spacing="1.5" font-family="monospace">WHAT CHANGES</text>
+    <text x="635" y="42" text-anchor="middle" fill="#1d4f91" fill-opacity="0.85" font-size="9.5" letter-spacing="1.5" font-family="monospace">WHY IT MATTERS</text>
+
+    <!-- Row 1 -->
+    <line x1="250" y1="90" x2="279" y2="90" stroke="#2663b6" stroke-opacity="0.55" stroke-width="1.5" marker-end="url(#vcArrow)"/>
+    <line x1="495" y1="90" x2="524" y2="90" stroke="#2663b6" stroke-opacity="0.55" stroke-width="1.5" marker-end="url(#vcArrow)"/>
+    <rect x="40" y="62" width="210" height="56" rx="10" fill="#14294a" stroke="#1d4f91" stroke-opacity="0.3"/>
+    <text x="145" y="94.3" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">Catch issues early</text>
+    <rect x="285" y="62" width="210" height="56" rx="10" fill="#f1f5f9" stroke="#e2e8f0"/>
+    <text x="390" y="94" text-anchor="middle" fill="#334155" font-size="12">Less rework &amp; scrap</text>
+    <rect x="530" y="62" width="210" height="56" rx="10" fill="#e8f0fb" stroke="#9cc0f0"/>
+    <text x="635" y="86.5" text-anchor="middle" fill="#1d4f91" font-size="12" font-weight="600">Fewer delays,</text>
+    <text x="635" y="101.5" text-anchor="middle" fill="#1d4f91" font-size="12" font-weight="600">less tied-up inventory</text>
+
+    <!-- Row 2 -->
+    <line x1="250" y1="164" x2="279" y2="164" stroke="#2663b6" stroke-opacity="0.55" stroke-width="1.5" marker-end="url(#vcArrow)"/>
+    <line x1="495" y1="164" x2="524" y2="164" stroke="#2663b6" stroke-opacity="0.55" stroke-width="1.5" marker-end="url(#vcArrow)"/>
+    <rect x="40" y="136" width="210" height="56" rx="10" fill="#14294a" stroke="#1d4f91" stroke-opacity="0.3"/>
+    <text x="145" y="160.8" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">Automate data</text>
+    <text x="145" y="175.8" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">&amp; reporting</text>
+    <rect x="285" y="136" width="210" height="56" rx="10" fill="#f1f5f9" stroke="#e2e8f0"/>
+    <text x="390" y="160.5" text-anchor="middle" fill="#334155" font-size="12">Engineers freed</text>
+    <text x="390" y="175.5" text-anchor="middle" fill="#334155" font-size="12">from busywork</text>
+    <rect x="530" y="136" width="210" height="56" rx="10" fill="#e8f0fb" stroke="#9cc0f0"/>
+    <text x="635" y="160.5" text-anchor="middle" fill="#1d4f91" font-size="12" font-weight="600">Faster improvements,</text>
+    <text x="635" y="175.5" text-anchor="middle" fill="#1d4f91" font-size="12" font-weight="600">better processes</text>
+
+    <!-- Row 3 -->
+    <line x1="250" y1="238" x2="279" y2="238" stroke="#2663b6" stroke-opacity="0.55" stroke-width="1.5" marker-end="url(#vcArrow)"/>
+    <line x1="495" y1="238" x2="524" y2="238" stroke="#2663b6" stroke-opacity="0.55" stroke-width="1.5" marker-end="url(#vcArrow)"/>
+    <rect x="40" y="210" width="210" height="56" rx="10" fill="#14294a" stroke="#1d4f91" stroke-opacity="0.3"/>
+    <text x="145" y="242.3" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">Connect every team</text>
+    <rect x="285" y="210" width="210" height="56" rx="10" fill="#f1f5f9" stroke="#e2e8f0"/>
+    <text x="390" y="242" text-anchor="middle" fill="#334155" font-size="12">Less back-and-forth</text>
+    <rect x="530" y="210" width="210" height="56" rx="10" fill="#e8f0fb" stroke="#9cc0f0"/>
+    <text x="635" y="234.5" text-anchor="middle" fill="#1d4f91" font-size="12" font-weight="600">Faster decisions,</text>
+    <text x="635" y="249.5" text-anchor="middle" fill="#1d4f91" font-size="12" font-weight="600">fewer meetings</text>
+
+    <text x="390" y="290" text-anchor="middle" fill="#64748b" font-size="12">Every lever lands on the same goal — lower production cost, higher efficiency</text>
+  </g>
+</svg>

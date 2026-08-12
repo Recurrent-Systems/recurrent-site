@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 286" fill="none">
+  <!-- card background (white) -->
+  <rect x="0.5" y="0.5" width="779" height="285" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <!-- Left: isolated silos -->
+    <!-- 3D Scanning -->
+    <rect x="15" y="14" width="250" height="42" rx="12" fill="#e8f0fb" stroke="#cbd5e1" stroke-dasharray="5 4"/>
+    <text x="30" y="40" fill="#334155" font-size="11.5" font-weight="600">3D Scanning</text>
+    <rect x="132" y="22" width="108" height="26" rx="7" fill="#f1f5f9" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="186" y="39" text-anchor="middle" fill="#475569" font-size="11">3D scans</text>
+    <!-- Metrology -->
+    <rect x="15" y="66" width="250" height="42" rx="12" fill="#e8f0fb" stroke="#cbd5e1" stroke-dasharray="5 4"/>
+    <text x="30" y="92" fill="#334155" font-size="11.5" font-weight="600">Metrology</text>
+    <rect x="132" y="74" width="108" height="26" rx="7" fill="#f1f5f9" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="186" y="91" text-anchor="middle" fill="#475569" font-size="11">Inspection data</text>
+    <!-- Engineering -->
+    <rect x="15" y="118" width="250" height="42" rx="12" fill="#e8f0fb" stroke="#cbd5e1" stroke-dasharray="5 4"/>
+    <text x="30" y="144" fill="#334155" font-size="11.5" font-weight="600">Engineering</text>
+    <rect x="132" y="126" width="108" height="26" rx="7" fill="#f1f5f9" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="186" y="143" text-anchor="middle" fill="#475569" font-size="11">Design intent</text>
+    <!-- Siloed Platforms -->
+    <rect x="15" y="170" width="250" height="42" rx="12" fill="#e8f0fb" stroke="#cbd5e1" stroke-dasharray="5 4"/>
+    <text x="30" y="196" fill="#334155" font-size="11.5" font-weight="600">Siloed Platforms</text>
+    <rect x="132" y="178" width="108" height="26" rx="7" fill="#f1f5f9" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="186" y="195" text-anchor="middle" fill="#475569" font-size="11">Docs &amp; records</text>
+
+    <text x="140" y="232" text-anchor="middle" fill="#64748b" font-size="12">Disconnected teams · siloed data</text>
+
+    <!-- Center: the path to insight breaks -->
+
+    <line x1="390" y1="113" x2="404" y2="127" stroke="#ff0000" stroke-opacity="0.8" stroke-width="1.5"/>
+    <line x1="404" y1="113" x2="390" y2="127" stroke="#ff0000" stroke-opacity="0.8" stroke-width="1.5"/>
+
+    <!-- Right: outcomes, unfilled (faded) -->
+    <rect x="540" y="40" width="222" height="154" rx="16" fill="#fbfcfe" stroke="#cbd5e1" stroke-dasharray="6 4"/>
+    <rect x="556" y="53" width="190" height="26" rx="8" fill="#f8fafc" stroke="#eef2f7"/>
+    <circle cx="572" cy="66" r="4" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="588" y="70" fill="#94a3b8" font-size="12">Detect defects earlier</text>
+    <rect x="556" y="87" width="190" height="26" rx="8" fill="#f8fafc" stroke="#eef2f7"/>
+    <circle cx="572" cy="100" r="4" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="588" y="104" fill="#94a3b8" font-size="12">Determine root cause</text>
+    <rect x="556" y="121" width="190" height="26" rx="8" fill="#f8fafc" stroke="#eef2f7"/>
+    <circle cx="572" cy="134" r="4" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="588" y="138" fill="#94a3b8" font-size="12">Institutional knowledge</text>
+    <rect x="556" y="155" width="190" height="26" rx="8" fill="#f8fafc" stroke="#eef2f7"/>
+    <circle cx="572" cy="168" r="4" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="588" y="172" fill="#94a3b8" font-size="12">Enhanced traceability</text>
+
+    <text x="651" y="232" text-anchor="middle" fill="#64748b" font-size="12">No insights · no outcomes</text>
+  </g>
+</svg>
