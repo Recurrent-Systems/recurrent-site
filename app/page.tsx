@@ -175,7 +175,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-8 shadow-panel">
+            {/* <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-8 shadow-panel">
               <p className="max-w-xl text-lg leading-8 text-slate-200">
                 Start a conversation about Forge and the feedback loops your operation needs.
               </p>
@@ -185,7 +185,7 @@ export default function Home() {
               >
                 Email Us
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
